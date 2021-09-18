@@ -22,7 +22,7 @@ function init() {
         }
 
         // Create a constant to hold the grouped Data
-        const grouped_data_1 = groupBy(data, 'Div_Sch_Num');
+        const grouped_data_1 = groupBy(data, 'SCH_NAME');
 
         // console.log("grouped data", grouped_data_1) 
         // empty lists to store parsed data
@@ -74,7 +74,7 @@ function buildPanel(id) {
         }
 
         // Create a constant to hold the grouped Data
-        const grouped_data_1 = groupBy(data, 'Div_Sch_ID');
+        const grouped_data_1 = groupBy(data, 'School Name');
 
         // console.log("grouped data", grouped_data_1) 
         // empty lists to store parsed data
@@ -124,7 +124,7 @@ function buildCharts(id) {
         }
 
         // Create a constant to hold the grouped Data
-        const grouped_data = groupBy(data, 'Div_Sch_Num');
+        const grouped_data = groupBy(data, 'SCH_NAME');
 
         // console.log("grouped data", grouped_data)
         // empty lists to store parsed data
